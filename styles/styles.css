@@ -55,7 +55,7 @@ div {
 .ojos {
     width: 20%;
     height: 30%;
-    background-color: rgb(231, 31, 31);
+    background-color: rgb(31, 231, 211);
     border-radius: 50%;
     position: absolute;
 }
@@ -66,4 +66,39 @@ div {
 #ojoDer {
     top:20%;
     right: 25%;
+}
+.boca {
+    width: 50%;
+    height: 20%;
+    background-color: rgb(231, 31, 31);
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+}
+.nariz {
+    width: 15%;
+    height: 15%;
+    background-color: rgb(212, 160, 30);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 42.5%;
+}
+.pupilas {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}   
+#pupilaIzq {
+    top: 20%;
+    left: 25%;
+}
+#pupilaDer {
+    top: 25%;
+    left: 20%;
 }
