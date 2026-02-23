@@ -5,4 +5,65 @@ h1{
 
 div {
     background-color: rgb(192,192,192);
+    color:sandybrown
+    
+
+}
+body{
+    background-color: rgb(255, 203, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div {
+    background-color: rgb(50, 200, 65);
+    width: 200px;
+}
+.DivMorado{
+    background-color: mediumpurple;
+}
+.divUnico{
+    background-color: lightcyan;
+}
+
+#dibujo{
+    width: 40vw;
+    height: 40vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cara {
+    width: 60%;
+    height: 60%;
+    background-color: rgba(255, 203, 90, 0.66);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ojos {
+    width: 20%;
+    height: 30%;
+    background-color: rgb(231, 31, 31);
+    border-radius: 50%;
+    position: absolute;
+}
+#ojoizq {
+    top:20%;
+    left: 25%;
+}
+#ojoDer {
+    top:20%;
+    right: 25%;
 }
