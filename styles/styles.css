@@ -79,7 +79,7 @@ div {
 .nariz {
     width: 15%;
     height: 15%;
-    background-color: rgb(212, 160, 30);
+    background-color: rgba(255, 203, 90, 0.848);
     border-radius: 50%;
     position: absolute;
     top: 40%;
@@ -101,4 +101,19 @@ div {
 #pupilaDer {
     top: 25%;
     left: 20%;
+}
+.orejas {
+    width: 20%;
+    height: 30%;
+    background-color: rgba(255, 203, 90, 0.939);
+    border-radius: 50%;
+    position: absolute;
+}
+#orejaIzq {
+    top: 20%;
+    left: -10%;
+}
+#orejaDer {
+    top: 20%;
+    right: -10%;
 }
